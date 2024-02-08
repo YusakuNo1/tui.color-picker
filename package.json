@@ -7,6 +7,7 @@
   ],
   "scripts": {
     "test": "jest",
+    "build": "webpack --mode=production & webpack --mode=production --minify",
     "bundle": "webpack --mode=production & webpack --mode=production --minify",
     "serve": "webpack-dev-server --inline --hot -d",
     "doc:serve": "tuidoc --serv",
