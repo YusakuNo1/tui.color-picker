@@ -7,8 +7,8 @@ pids
 *.pid
 *.seed
 
-# Compiled files
-dist
+# # Compiled files
+# dist
 
 # Dependency directory
 node_modules
